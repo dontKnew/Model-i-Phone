@@ -1,0 +1,967 @@
+
+    body {
+background:white;
+    
+}
+
+
+#phonebody{
+    margin:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+    
+    
+}
+#Phone{
+    width:300px;
+    height:600px;
+    border:1px solid blue;
+    border-radius:5%;
+    box-shadow:2px 2px 3px black, -2px -2px 3px black;
+   /* background-image:linear-gradient(orange,white,red);*/
+}
+
+#line{
+    width:300px;
+    height:1px;
+    background-color:blue;
+    position:relative;
+    top:40px;
+}
+
+#fcamera{
+    width:10px;
+    height:10px;
+    border-radius:100%;
+    background-image:radial-gradient(black,white,black);
+    position:relative;
+    left:110px;
+    top:22px;
+}
+
+#mic {
+    width:50px;
+    height:4px;
+    background-image:radial-gradient(white,black);
+    border:1px solid black;
+    border-radius:20%;
+    position:relative;
+    left:130px;
+    top:13px;
+    
+}
+#button{
+    width:50px;
+    height:50px;
+    background-image:radial-gradient(black,blue,black);
+    border-radius:100%;
+    border:2px solid black;
+    position:relative;
+    top:526px;
+    left:126px;
+    
+}
+
+#button:active{
+background-image:radial-gradient(black,green,black);
+    
+}
+
+#line1{
+    width:300px;
+    height:1px;
+    background-color:blue;
+    position:relative;
+    top:470px;
+}
+
+#display{
+    width:295px;
+    height:479px;
+    border: 1px solid black;
+    background-color:white;
+    position:relative;
+    bottom:13.5px;
+    left:1.5px;
+    transition:1s;
+    color:black;
+}
+
+
+#vol{
+     width:3px;
+     height:80px;
+     border:1px solid black;
+     border-radius:10%;
+     position:relative;
+     left:-6px;
+     bottom:450px;
+     background-image:linear-gradient(black,white,black);
+}
+
+#power{
+     width:3px;
+     height:50px;
+     border:1px solid black;
+     border-radius:10%;
+     position:relative;
+     left:300px;
+     bottom:450px;
+     background-image:linear-gradient(black,white,black);
+     
+}
+
+#iphone{
+ text-align:center;
+ margin-top:0;
+}
+
+#wallpaper{
+position:relative;
+top:-625px;
+left:5px;
+    
+}
+
+
+/* Screen Saver */
+
+#screen{
+    display:none;
+    background-color:black;
+}
+#color {
+width:290px;
+height:auto;
+background-color:black;
+color:red;
+}
+
+footer{
+    color:red;
+    font-family:Arial;
+    font-weight:bold;
+    position:absolute;
+    top:10px;
+}
+
+#screensaver{
+    width:50px;
+    height:50px;
+    position:relative;
+    top:20px;
+    left:20px;
+}
+
+#screenapp{
+    width:50px;
+    height:50px;
+    border:1px Solid black;
+    border-radius:20%;
+    background:red;
+    
+}
+
+#textsaver{
+    font-weight:bolder;
+    position:relative;
+    left:-11px;
+}
+
+.fas{
+    position:relative;
+    left:2px;
+    font-size:50px;
+    top:2px;
+    background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
+      -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+      color: transparent;
+}
+
+/* Voice App */
+
+#bodyvoice{
+
+margin: 0 auto;
+background-image:linear-gradient(black,white,black)
+width:295;
+height:479;
+display:none;
+
+}
+
+
+#textbox{
+    display:grid;
+    justify-content:center;
+    background-color:;
+    border:;
+    margin-top:40px 
+    width:100px;
+    height:100px;
+    }
+
+
+#text{
+    display:;
+    border:3px solid green; 
+    background-color:black;
+    border-radius:0%;
+    color:white;
+    font-family:Arial;
+    text-decoration:none;
+    font-size:20px;
+    resize:none;
+    text-align-last:center;
+}
+
+#mic{
+    font-size:100px;
+    text-align:center;
+    position:relative;
+    top:10px;
+    color:red;
+     
+}
+#mic:active{
+  
+  color:green;
+}
+
+#appspeech{
+    color:red;
+    font-family:monospace;
+    text-align:center;
+    margin:30px;
+    text-shadow:1px 1px 2px black;
+    text-shadow: -1px -1px 2px black;
+    font-size:30px;
+    animation: nice 0.5s infinite;
+}
+
+@keyframes nice{
+    0%{color:red;}
+    100%{color:yellow;}
+}
+
+footer {
+    color:blue;
+    position:absolute;
+    bottom: 6px;
+    left:10px;
+}
+
+
+#vappb{
+    width:50px;
+    height:50px;
+   position:relative;
+    top:150px;
+    left:20px;
+    background:yellow;
+}
+
+#vapp{
+    width:50px;
+    height:50px;
+    border:1px Solid black;
+    border-radius:20%;
+    background:yellow;
+    z-index:0;
+    
+}
+
+#textvoice{
+    font-weight:bolder;
+    position:relative;
+    left:5.5px;
+}
+
+.fa-microphone-alt{
+    position:relative;
+    left:10px;
+    font-size:50px;
+    top:2px;
+  background-image: linear-gradient(to left, black,white,black);
+      -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+      color: transparent;
+      
+}
+
+
+/* Calculator */
+
+#calappb{
+    width:50px;
+    height:50px;
+   position:relative;
+    top:200px;
+    left:150px;
+    background:yellow;
+}
+
+#calapp{
+    width:50px;
+    height:50px;
+    border:1px Solid black;
+    border-radius:20%;
+    background:blue;
+    z-index:0;
+    
+}
+
+#textcal{
+    font-weight:bolder;
+    position:relative;
+    left:-5px;
+}
+
+.fa-calculator{
+    position:relative;
+    left:5px;
+    font-size:50px;
+    top:2px;
+  background-image: linear-gradient(to left, black,white,black);
+      -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+      color: transparent;
+      
+}
+
+
+
+/* ----- Calculator ----- */
+
+#calbody {
+    background: url("https://images.pexels.com/photos/900106/pexels-photo-900106.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-position: right;
+    background-size: cover;
+    display:none;
+}
+.main {
+    width: 290px;
+    height: 475px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #5c5859;
+    padding:0;
+    border-radius:;
+    box-shadow: 0 5px 50px 0 rgba(0, 0, 0, .5);
+    box-shadow: inset 0 -5px 10px 5px rgba(0, 0, 0, .5);
+    transform: translate(-50%, -50%) scale(1);
+   /* display: none;*/
+}
+.textview {
+    width: 90%;
+    height: 90px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 24px auto 15px auto;
+    font-size: 50px;
+    text-align: right;
+    font-family: 'Segment7Standard';
+    font-family: 'Rubik', sans-serif;
+    background: #cddecc;
+    color: #6d756b;
+    border: none;
+    padding: 0 0px 0 0;
+    border-radius: 15px;
+    overflow-x: scroll;
+    box-shadow: inset 0 -5px 10px 2px #6b756a,
+                0 5px 10px 0px #3f423f;
+/*    padding: 5px;*/
+}
+table {
+    position: absolute;
+    /*top: 0;
+    right: 0;*/
+    bottom: 0;
+/*    left: 0;*/
+/*    display: flex;
+    justify-content: center;
+    align-items: center;*/
+    margin: 0 5px 23px 23px;
+}
+#clean {
+    background: red;
+    color: #fff;
+    box-shadow: inset 0 5px 10px 0 #ff1900,
+                inset 0 -5px 10px 3px #2d1f1fba,
+                0 5px 10px 0px #1e211e;
+}
+#clean:active {
+    box-shadow: inset 0 -5px 10px 0 #ff1900,
+                inset 0 5px 10px 3px #2d1f1fba,
+                0 0px 10px 0px #3f423f00;
+}
+#img {
+    width: 80%;
+    height: 80%;
+    transform: scale(.9);
+}
+#plus,
+#first {
+    height: 140px;
+}
+#equal,
+#second {
+    width: 135px;
+}
+#second {
+    background: #31e008;
+    color:#fff;
+    box-shadow: inset 0 5px 10px 0 #31e008, inset 0 -5px 10px 3px #2a5a22bf, 0 5px 10px 0px #1e211e;
+}
+#second:active {
+    box-shadow: inset 0 -5px 10px 0 #31e008,
+                inset 0 5px 10px 3px #2a5a22bf,
+                0 0px 10px 0px #3f423f00;
+}
+.button {
+    width: 60px;
+    height: 55px;
+    font-size: 20px;
+    font-weight: 900;
+    position: relative;
+    left:-5px;
+    top:2px;
+    margin: 2px;
+    border: none;
+    border-radius: 18px;
+    font-family: 'Rubik', sans-serif;
+    background: #f0eeef;
+    color: #3b3b3c;
+    box-shadow: inset 0 5px 10px 0 #fff,
+                inset 0 -5px 10px 3px #847a7aba,
+                0 5px 10px 0px #1e211e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main table tr td .button:active {
+    box-shadow: inset 0 -5px 5px 0 #fff,
+                inset 0 5px 10px 3px #847a7aba,
+                0 0px 5px 0px #3f423f00;
+}
+.inner {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    margin:;
+  /*background: green;*/
+    padding: -10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-2.5px);
+}
+.main table tr td .button .inner:active {
+    transform: translateY(1px) scale(.98);
+}
+#copy {
+    position: fixed;
+    bottom: 2.5px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0 auto 2.5px auto;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: .5px .5px 5px #5c5859;
+    
+}
+::selection {
+    background: transparent;
+    color: auto;
+}
+/* setting */
+
+#settingbody{
+    width:50px;
+    height:50px;
+   position:relative;
+    top:100px;
+    left:150px;
+    background:yellow;
+}
+
+#settingapp{
+    width:50px;
+    height:50px;
+    border:1px Solid black;
+    border-radius:20%;
+    background:blue;
+    z-index:0;
+    font-size:50px;
+    
+}
+
+#textsetting{
+    font-weight:bolder;
+    position:relative;
+    left:0px;
+}
+
+.fa-cog{
+    position:relative;
+    left:5px;
+    font-size:100px;
+    top:0px;
+  background-image: linear-gradient(to left, yellow,white,yellow);
+      -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+      color: transparent;
+}
+
+#settingpage{
+    font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width:100%;
+  position:relative;
+  top:-10px;
+  left:-22px;
+  display:;
+}
+
+#td, #th{
+
+border: 1px solid #dddddd;
+  text-align: left;
+  padding: 20px;
+  text-align:center;
+  font-weight:bolder;
+  font-family:Arial;
+  }
+  
+  tr:nth-child(odd) {
+  background-color: green;
+}
+
+#funsetting{
+    display:none;
+}
+
+
+
+/* Music Player App */
+
+#musicbodyapp{
+    width:50px;
+    height:50px;
+   position:relative;
+    top:50px;
+    left:150px;
+    background:yellow;
+}
+
+#musicapp{
+    width:50px;
+    height:50px;
+    border:1px Solid black;
+    border-radius:20%;
+    background:black;
+    z-index:0;
+    font-size:50px;
+    
+}
+
+#textmusic{
+    font-weight:bolder;
+    position:relative;
+    left:4.8px;
+}
+
+.fa-music{
+    position:relative;
+    left:5px;
+    font-size:100px;
+    top:0px;
+  background-image: linear-gradient(to left, red,white,red);
+      -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+      color: transparent;
+}
+
+
+/* Music Player Body*/
+
+#musicbody{
+    background-image:(100deg,black,red,Orange); 
+    display:none;
+}
+
+#body{
+background-size:cover;
+background-image: linear-gradient(100deg,black,red,Orange);    
+border:;
+display:none;
+width:295x;
+height:479px;
+overflow:scroll;
+margin-top:0px;
+margin-left:0px;
+
+}
+
+
+#yalgaarp {
+background-color:red;
+box-shadow:5px 3px 9px  black;
+size:50px;
+border-radius:3px;
+width:300px;
+height:300px;
+margin:20px;
+ }
+ 
+ #yalgaar{
+     margin:auto;
+     display:flex;
+   flex-direction:row;
+     justify-content:center;
+     
+ }
+ 
+ #audioc {
+ background:#f2f2f2;
+ border-radius:;
+ border:red;
+ box-shadow:5px 3px 9px  black;
+ background:yellow;
+ }
+
+
+ #audio{
+     margin:auto;
+     display:flex;
+    flex-direction:row;
+     justify-content:center;
+     margin:15px;
+     
+     filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);}
+     
+     
+ 
+ 
+/* Loader */
+
+#text{
+    color:white;
+    margin:auto;
+    position:absolute;
+    top:0;
+    left:95px;
+    bottom:10px;
+    right:0;
+    width:200px;
+    height:10px;
+    font-weight:bolder;
+     
+    
+}
+
+#Lhide {
+       border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  border-right: 16px solid green;
+  border-bottom: 16px solid red;
+  border-left: 16px solid pink;
+  width: 120px;
+  height:120px;    
+    animation:round 1s linear infinite;
+    margin:auto;
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    
+    
+
+    }
+    
+@keyframes round {
+    0% {transform:rotate(0deg);}
+    100% {transform:rotate(360deg)}; 
+}
+
+
+
+/* Subway Surfers
+
+
+#subwayapp{
+    border:1px Solid black;
+    border-radius:20%;
+    background:black;
+    z-index:0;
+    position:relative;
+    top:50px;
+    left:150px;
+    background:yellow;
+
+}
+#subwayimage{
+    width:50px;
+    height:50px;
+    border : 1p solid blue;
+    
+}
+#textsubway{
+    font-weight:bolder;
+    position:relative;
+    left:4.8px;
+    color:blue;
+}
+
+img {
+    position:relative;
+    left:5px;
+    top:0px;
+  
+}
+
+*/
+
+
+ /*  Phone color */
+ #colorbody{
+    background-color: balck;
+    margin: 10px;
+    display:none;
+
+}
+
+#heading{
+    color:red;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: Arial, sens-sarif;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      display: flex;
+      justify-content: center;
+      background-color: white;
+      border: 2px solid black;
+      letter-spacing: 10px;
+      
+}
+
+div>#r, #red1{
+    color:red;
+    text-shadow: 2px 3px 4px green;
+    
+    
+}
+div>#g, #green1{
+    color:green;
+    text-shadow: 2px 3px 4px green;
+}
+div>#b, #blue1{
+    color:blue;
+    text-shadow: 2px 3px 4px blue;
+}
+
+#red1, #blue1, #green1{
+    
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: white;
+    width: 60px;
+    text-align: center;
+    margin-left:60px;
+    text-decoration-color: black
+    text-style:underline;
+    border:2px solid black;
+
+}
+
+#ranges{
+    display:grid;
+    justify-content: center;
+    margin-top:100px;
+
+
+}
+
+div>input{
+    padding: 20px;
+    border:2px dashed red;
+    color:white;
+    font-weight: bold;
+    text-shadow: 2px 3px 4px black;
+    text-align: center;
+    
+}
+
+#rgbn{
+    background-color: pink;
+    color:black;
+    font-weight: bold;
+    letter-spacing:4px;
+    font-family:monospace;
+    
+
+
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    font-weight: bold;
+    margin-bottom:10px;
+    font-family: Times of India, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.blue::-webkit-slider-thumb{
+ -webkit-appearance:none;
+    overflow:hidden;
+    border: 1px solid black;
+    background:blue;
+    opacity:;
+}
+
+h1{
+    color:white;
+}
+
+
+
+
+
+#red, #green , #blue{
+  height: 20px;
+  background: #ddd;
+  position: relative;
+  outline: none;
+  margin: 20px 10px 0;
+}
+
+
+
+
+/* Stopwatch */
+
+#stopwatchbodyapp{
+    width:50px;
+    height:50px;
+   position:relative;
+    top:50px;
+    left:150px;
+    background:yellow;
+}
+
+#stopwatchapp{
+    width:50px;
+    height:50px;
+    border:1px Solid black;
+    border-radius:20%;
+    background:black;
+    z-index:0;
+    font-size:50px;
+    
+}
+
+#textstopwatch{
+    font-weight:bolder;
+    position:relative;
+    left:-4.5px;
+}
+
+.fa-stopwatch{
+    position:relative;
+    left:5px;
+    font-size:100px;
+    top:0px;
+  background-image: linear-gradient(to left, red,white,red);
+      -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+      color: transparent;
+}
+
+
+#stopwatchbody
+{         
+    background-color: #efefef;
+    margin:0;  padding:0;
+    user-select:none;
+    display:none;
+    
+}     
+ 
+h1 
+{         
+    font-size: 45px; 
+    position:relative; 
+    margin-top:43%;          
+} 
+
+button,#lap
+{
+    display:inline-block;
+    font-size:18px;
+    width:43%;height:48px;
+    margin:0%; color:white;
+    font-weight:bolder;
+    outline:none; border:0;
+    border-radius:5px;
+    background-color:teal;
+    box-shadow:0 1px 3px rgba(0,0,0,0.12), 0 3px 5px rgba(0,0,0,0.3);
+    cursor:pointer ;
+    outline:none;
+    transition:0.1s;
+    
+}
+button:active
+{
+    box-shadow:0 0 black;
+    transform:scale(0.94);
+}
+#begin
+{     
+    background-image:-webkit-linear-gradient(right,#06beb6,#48b1bf);
+} 
+
+#reset 
+{     
+    background-image: -webkit-linear-gradient(left,#141e30,#243b55);   
+}     
+
+#controls 
+{         
+    margin-left:2px;         
+    width: 310px;         height:70px;     
+}
+#lap
+{
+    width:78%; margin-top:0px;
+}
+
+@media only screen and ( min-width:500px )
+{
+    h1
+    {
+     margin-top:5%;   }  
+    #lap
+    {
+       width:45%;
+    }
+}
+
+
+}
