@@ -1,0 +1,448 @@
+<!-- Created By Sajid Ali 2021 * Hard Working..💔
+
+1. Project Complete in 5 Days 
+2. This is my first Big Project 
+3. If You Have idea How can I improve this Project more, please comment down
+4. Whole Project Created on Mobile at walking, sleeping, , studyin, eating, early morning and on the spot Job..😅
+
+Feature ☆☆☆  : 
+1. All Apps working Properly excpet Voice App
+2. You can change Phone Color from Setting -> Phone Color
+3. You Play Subway surfers Game 
+
+Many feature will be coming soon..
+
+ -->
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mobile</title>
+        <script> 
+    console.error =() =>{};
+    console.log =() =>{};
+    </script>
+    </head>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+         <script src='https://code.responsivevoice.org/responsivevoice.js'></script>
+         
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+   <script src="https://kit.fontawesome.com/5e2a222ba6.js" crossorigin="anonymous"></script>
+   
+   <!-- Calculator -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/segment7" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    
+    <body>
+    
+    <h1 id="iphone"> </h1>
+    <div id="phonebody">
+    
+        <div id="Phone"> 
+            <div id="fcamera"></div>
+             <div id="mic"></div>  
+             <div id="line"></div>
+            <div id="innerborder"></div>
+            <div id="button"></div>
+            <div id="line1"></div>
+            <div id="display">
+           
+            
+                <!-- Stopwatch App-->
+            <div id="stopwatchbodyapp">
+           <div id="stopwatchapp">
+<i class="fa fa-stopwatch" aria-hidden="true"></i>           
+           </div>
+           <span id="textstopwatch">Stopwatch</span>
+       </div>  
+       
+       <!-- Stopwatch Body-->
+            
+            <div id="stopwatchbody">
+    
+   <center> <h1 id="output" ><b>00:00:00:00</b></h1> </center>
+    
+   <center>
+        <div id="controls" >
+    
+         <button id= "begin" onclick="begin()" > <div id="start">START</div></button>     
+     
+     <button onclick="reset()" id="reset" >RESET</button> 
+     </div>
+   </center>
+  <center>
+ <button id="lap" onclick="noteLap()">Lap</button>      
+  </center>
+     
+   <audio id="click" autoplay loop>
+    <source src="https://dl-web.dropbox.com/s/so2l579qs7alolb/Stopwatch%203.mp3?dl=0" 
+    type = "audio/mp3">
+
+</audio>           
+    </div>
+            
+            <!-- Phone color -->
+
+<div id="colorbody" >
+<div id="ranges">
+     <span id="red1"> Red</span>
+    <input type="range" name="rangecolor" max="255" min="0" id="red" value="0" oninput=green() >
+
+    <span id="green1">Green</span>
+    <input type="range" name="rangecolor" max="255" min="0" id="green" value="0" oninput=green() >
+
+    <span id="blue1">Blue</span>
+    <input type="range" name="rangecolor" max="255" min="0" id="blue" class =".blue" oninput=green() value="110" > <br>
+</div>
+<footer> &#169 Created by Sajid 2021 </footer>
+</div>
+            
+            <!-- Subway App-->
+            
+           <div id="subwayapp" style="position:relative;
+    top:30px; left:50px;width:55px; height:55px">
+<img src="https://dl.dropbox.com/s/urjgms4sf0n70na/images%20%288%29.jpeg" id="subwayimage" style="width:55px; height:55px; border-radius:16%;">    
+</img>           <br>
+           <span id="textsubway" style="font-weight:bolder;  position:relative; left:4.8px;">Subway Surfers</span>
+       </div>   
+           
+            
+            <!-- Subway Surf Game -->
+            <div id="subwaybody" style="display:none">
+            <iframe src="https://www.kiloo.com/subway-surfers/" height="475px" width="292"></iframe> </div>
+
+            
+            
+            <!-- Music Player App-->
+            <div id="musicbodyapp">
+           <div id="musicapp">
+<i class="fa fa-music" aria-hidden="true"></i>           
+           </div>
+           <span id="textmusic">Music</span>
+       </div>    
+           
+           <!-- Music Body -->
+           
+           <div id="musicbody">
+           <div id="load">
+    <h1 id="Lhide"></h1>
+    <p id="text"> image-Laoding...</p>
+    </div>
+
+       
+<div id="body">
+ 
+<a href="#last">bottom</a>
+
+<div id="yalgaar">
+ <img  src=https://dl.dropbox.com/s/pempryhz11uxp1j/20210113_221252.jpg?dl=0 Width="300px" height="300px" id="yalgaarp"></img>
+ </div>
+ 
+ <div id="audio">
+ <audio controls="controls" id="audio"> 
+ <source src="https://dl.dropbox.com/s/v7cs7dcg286huwz/AUD-20210106-WA0015.mp3?dl=0">
+ </audio>
+ </div> 
+
+
+<div id="yalgaar">
+ <img  src=https://dl.dropbox.com/s/utdzwcah5tls968/images%20%285%29.jpeg Width="300px" height="300px" id="yalgaarp"></img>
+ </div>
+ 
+ <div id="audio">
+ <audio controls="controls" id="audioc"> 
+ <source src="https://thebloodcoders.github.io/resources/musics/Lily.mp3" >
+ </audio>
+ <div id="last"></div>
+ </div> 
+
+
+
+ <div id="yalgaar">
+ 
+ <img  src=https://dl.dropboxusercontent.com/s/hu5jrfn1dytk77u/images%20%282%29.jpeg Width="300px" height="300px" id="yalgaarp"></img>
+ </div>
+ 
+ <div id="audio">
+ <audio controls="controls" id="audioc"> 
+ <source src="https://quz1yp-a.akamaihd.net/downloads/ringtones/files/mp3/milne-hai-mujhse-aayi-aashiqui-2-ringtone-pagalworld-com-1454.mp3">
+ </audio>
+ </div> 
+ 
+ 
+ <div id="yalgaar">
+ <img  src=https://dl.dropbox.com/s/6m50p882uuba83n/images%20%283%29.jpeg Width="300px" height="300px" id="yalgaarp"></img>
+ </div>
+ 
+ <div id="audio">
+ <audio controls="controls" id="audioc"> 
+ <source src="https://2u039f-a.akamaihd.net/downloads/ringtones/files/mp3/rider-mobile-ringtone-46241.mp3">
+ </audio>
+ </div> 
+ 
+ 
+ 
+ <div id="yalgaar">
+ <img  src=https://dl.dropbox.com/s/yc7p6jxfmoxj3y5/images%20%284%29.jpeg Width="300px" height="300px" id="yalgaarp"></img>
+ </div>
+ 
+ <div id="audio">
+ <audio controls="controls" id="audioc"> 
+ <source src="https://quz1yp-a.akamaihd.net/downloads/ringtones/files/mp3/lovemelikeyoudonotification-9607.mp3">
+ </audio>
+ </div>
+ 
+ 
+ <div id="yalgaar">
+ <img  src=https://dl.dropbox.com/s/6g2sx2ke9ta6xsg/images%20%286%29.jpeg Width="300px" height="300px" id="yalgaarp"></img>
+ </div>
+ 
+ <div id="audio">
+ <audio controls="controls" id="audioc"> 
+ <source src="https://2u039f-a.akamaihd.net/downloads/ringtones/files/mp3/kya-rang-laya-dil-ka-lagana-raabta-lambiyaan-si-judaiyaan-arijit-singh-ring-29410.mp3">
+ </audio>
+ </div> 
+ 
+
+ 
+ 
+ <div id="yalgaar">
+ <img  src=https://dl.dropbox.com/s/of9rrfddurgh3sf/images%20%287%29.jpeg Width="300px" height="300px" id="yalgaarp"></img>
+ </div>
+ 
+ <div id="audio">
+ <audio controls="controls" id="audioc"> 
+ <source src="https://2u039f-a.akamaihd.net/downloads/ringtones/files/mp3/alan-walker-faded-ringtone-30926.mp3">
+ </audio>
+ </div> 
+ </div>
+ </div>
+           
+            
+            
+            <!-- Settings --> 
+                <div id="settingbody">
+           <div id="settingapp">
+<i class="fa fa-cog" aria-hidden="true"></i>           
+           </div>
+           <span id="textsetting">Settings</span>
+       </div>    
+       <!-- function under Setting --> 
+       <div id="funsetting">
+       <table id="settingpage">
+       <tr><th id="th">Settings</th></tr>
+       <tr id="changephonecolor"><td id="td" >PhoneColor</td></tr>
+       <tr><td id="td">Wallpaper</td></tr>
+       <tr><td id="td">soon</td></tr>
+       <tr><td id="td">soon</td></tr>
+       <tr><td id="td">soon</td></tr>
+       <tr><td id="td">About</td></tr>
+       </table>
+       
+       </div>
+             
+    <!-- Calculator App --> 
+       <div id="calappb">
+           <div id="calapp">
+          <i class="fas fa-calculator"></i>
+           
+           </div>
+           <span id="textcal">Calculator</span>
+       </div>    
+       
+    <div id="calbody">
+        <div class="main">
+            <form name="form">
+                <input class="textview" name="textview" placeholder="0" style="overflow: scroll;" disabled>
+            </form>
+            <table>
+                <tr>
+                    <td>
+                        <div class="button" id="clean" onclick="clean()"><div class="inner">C</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="button none" onclick="back()"><div class="inner"><img alt="←" id="img" src="https://www.dropbox.com/s/2jmv326a6rdvijq/Clear.png?raw=1"></div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="button none" onclick="opt('/')"><div class="inner">÷</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="button none" onclick="opt('*')"><div class="inner">×</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="button none" onclick="insert(7)"><div class="inner">7</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="button none" onclick="insert(8)"><div class="inner">8</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="button none" onclick="insert(9)"><div class="inner">9</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="button none" onclick="insert('-')"><div class="inner">-</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="button none" onclick="insert(4)"><div class="inner">4</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="button none" onclick="insert(5)"><div class="inner">5</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="button none" onclick="insert(6)"><div class="inner">6</div>
+                        </div>
+                    </td>
+                    <td rowspan="2" id="plus">
+                        <div id="first" class="button none" onclick="opt('+')"><div class="inner">+</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="button none" onclick="insert(1)"><div class="inner">1</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="button none" onclick="insert(2)"><div class="inner">2</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="button none" onclick="insert(3)"><div class="inner">3</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div id="zero" class="button none" onclick="zero()"><div class="inner">0</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="button none" onclick="insert('.')"><div class="inner">.</div>
+                        </div>
+                    </td>
+                    <td colspan="2" id="equal">
+                        <div id="second" class="button none" onclick="equal()"><div class="inner">=</div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="copy">&copy;Ishu</div>
+    </div>
+            
+            
+    <!-- Voice App --> 
+       <div id="vappb">
+           <div id="vapp">
+          <i class="fas fa-microphone-alt"></i>
+           
+           </div>
+           <span id="textvoice">Voice</span>
+       </div>    
+       
+            <div id="bodyvoice">
+            <h1 id="appspeech"> Text to Speach</h1>
+    
+        <div id="textbox">
+            <textarea type="text " placeholder="type here..." id="text" rows="10" cols="20"></textarea>
+            
+       <i class="fa fa-microphone" aria-hidden="true" id="mic" Onclick=speak() ></i>
+        </div>
+        
+        <footer> Created By Sajid </footer>
+            </div>
+                  <!-- App ScreenSaver -->
+                <div id="screensaver">
+                <div id="screenapp">
+                <i class="fas fa-spray-can"></i>
+                </div>
+                <span id="textsaver">ScreenSaver</span>
+                </div>
+    <div id="screen">         
+    <div id="color">
+        <div id="box0" > </div>
+        <div id="box1" > </div>
+        <div id="box2" > </div>
+        <div id="box3" > </div>
+        <div id="box4" > </div>
+        <div id="box5" > </div>
+        <div id="box6" > </div>
+        <div id="box7" > </div>
+        <div id="box8" > </div>
+        <div id="box9" > </div>
+        <div id="box10" > </div>
+        <div id="box11" > </div>
+        <div id="box12" > </div>
+        <div id="box13" > </div>
+        <div id="box14" > </div>
+        <div id="box15" > </div>
+        <div id="box16" > </div>
+        <div id="box17" > </div>
+        <div id="box18" > </div>
+        <div id="box19" > </div>
+        <div id="box20" > </div>
+        <div id="box21" > </div>
+        <div id="box22" > </div>
+        <div id="box23" > </div>
+        <div id="box24" > </div>
+        <div id="box25" ></div>
+        <div id="box26" > </div>
+        <div id="box27" > </div>
+        <div id="box28" > </div>
+        <div id="box29" > </div>
+        <div id="box30" > </div>
+        <div id="box31" > </div>
+        <div id="box32" > </div>
+        <div id="box33" > </div>
+        <div id="box34" > </div>
+        <div id="box35" > </div>
+        <div id="box36" > </div>
+        <div id="box37" > </div>
+        <div id="box38" > </div>
+        <div id="box39" > </div>
+         <div id="box40" > </div>
+        <div id="box41" > </div>
+        <div id="box42" > </div>
+        <div id="box43" > </div>
+        <div id="box44" > </div>
+        <div id="box45" > </div>
+        <div id="box46" > </div>
+        <div id="box47" > </div>
+        <div id="box48" > </div>
+        <div id="box49" > </div>
+        <div id="box50" > </div>
+        <div id="box51" > </div>
+        <div id="box52" > </div>
+        <div id="box53" > </div>
+        
+        <footer>Created by Sajid</footer>
+      </div> 
+      </div>
+       </div>
+             
+            
+            <div id="vol"></div>
+            <div id="power"></div>
+           <!-- <div id="wallpaper"><img src="https://dl.dropbox.com/s/s5vtg4cyntofue4/images%20%281%29.jpeg" alt ="wallpaper" width="290px" height ="473"></img></div>-->
+            
+        </div>
+    </div>
+    </body>
+</html>
